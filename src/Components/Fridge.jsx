@@ -1,11 +1,17 @@
 import { foodInput } from "../demoData"
-import Food from "./Food"
+import FoodTypes from "./FoodTypes"
 export default function Fridge() {
+    const getTypes = (foodIn) => {
+        //remove the duplicate value in food types
+        return [...new Set(foodIn.map(f => { return f.type }))];
+    }
+
+    const getQuantity = () => { }
     return (
         <section id="fridge">
             {
-                foodInput.map(f => {
-                    return <Food name={f.name} boughtDate={f.boughtDate} expiredDate={f.expiredDate} type={f.type} quantity={f.quantity} />
+                getTypes(foodInput).map(f => {
+                    return <FoodTypes type={f} />
                 })
             }
         </section>

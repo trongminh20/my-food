@@ -13,9 +13,9 @@ export default function InputForm() {
                 <option value="egg">Egg</option>
                 <option value="dairy">Dairy</option>
             </select>
-            <input type="date" name="" value="" className="" placeholder="" />
-            <input type="date" name="" value="" className="" placeholder="" />
-            <input type="submit" name="" value="" className="" placeholder="" />
+            <input type="date" name="" value="" className="" />
+            <input type="date" name="" value="" className="" />
+            <input type="submit" name="" value="Add Food" className="btn--submit" />
         </form>
     )
 }

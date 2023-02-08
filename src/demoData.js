@@ -8,14 +8,14 @@ export const foodInput = [
     },
     {
         name: "Pork",
-        type: "Meat",
+        type: "meat",
         quantity: 2,
         boughtDate: "2023-01-01",
         expiredDate: "2024-01-01"
     },
     {
         name: "Beef",
-        type: "Meat",
+        type: "meat",
         quantity: 6,
         boughtDate: "2023-01-01",
         expiredDate: "2024-01-21"
@@ -47,6 +47,6 @@ export const foodInput = [
         quantity: 1,
         boughtDate: "2023-01-01",
         expiredDate: "2023-02-01"
-    },
+    }
 ];
 
