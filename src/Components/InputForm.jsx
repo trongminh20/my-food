@@ -1,6 +1,6 @@
 export default function InputForm({foodName, changeName,
                                     quantity, changeQuantity,
-                                    types, changeTypes,
+                                    type, changeType,
                                     boughtDate, changeBoughtDate,
                                     expiredDate, changeExpiredDate}) 
 {
@@ -15,7 +15,7 @@ export default function InputForm({foodName, changeName,
                    className="" 
                    value={quantity || ""} 
                    onChange={changeQuantity} />
-            <select name="types" id="food--type" onChange={changeTypes}>
+            <select name="type" id="food--type" onChange={changeType}>
                 <option value="meat">Meat</option>
                 <option value="drink">Drink</option>
                 <option value="seafood">Seafood</option>

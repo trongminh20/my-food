@@ -12,9 +12,9 @@ function App() {
     setQuantity(target.value);
   }
 
-  const [types, setTypes] = useState("");
-  const changeTypes = ({target}) => {
-    setTypes(target.value);
+  const [type, setType] = useState("");
+  const changeType = ({target}) => {
+    setType(target.value);
   }
 
   const [ boughtDate, setBoughtDate ] = useState();
@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <InputForm foodName={foodName} changeName={changeName}
                  quantity={quantity} changeQuantity={changeQuantity}
-                 types={types} changeTypes={changeTypes}
+                 type={type} changeType={changeType}
                  boughtDate={boughtDate} changeBoughtDate={changeBoughtDate}
                  expiredDate={expiredDate} changeExpiredDate={changeExpiredDate}/>
       <Fridge />
