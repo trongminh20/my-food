@@ -34,7 +34,6 @@ function App() {
                  types={types} changeTypes={changeTypes}
                  boughtDate={boughtDate} changeBoughtDate={changeBoughtDate}
                  expiredDate={expiredDate} changeExpiredDate={changeExpiredDate}/>
-      <p>{types}</p>
       <Fridge />
     </div>
   );
