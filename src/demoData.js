@@ -47,6 +47,34 @@ export const foodInput = [
         quantity: 1,
         boughtDate: "2023-01-01",
         expiredDate: "2023-02-01"
+    },
+    {
+        name: "Milk",
+        type: "drink",
+        quantity: 1,
+        boughtDate: "2023-01-01",
+        expiredDate: "2023-02-01"
+    },
+    {
+        name: "Milk",
+        type: "drink",
+        quantity: 1,
+        boughtDate: "2023-01-01",
+        expiredDate: "2023-02-01"
+    },
+    {
+        name: "Milk",
+        type: "drink",
+        quantity: 1,
+        boughtDate: "2023-01-01",
+        expiredDate: "2023-02-01"
+    },
+    {
+        name: "Milk",
+        type: "drink",
+        quantity: 1,
+        boughtDate: "2023-01-01",
+        expiredDate: "2023-02-01"
     }
 ];
 
